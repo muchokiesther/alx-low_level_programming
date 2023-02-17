@@ -12,6 +12,6 @@ int main(void)
 	for (i = 'e' ; i <= 'z' ; i++)
 		if (i != 'q' && i != 'e')
 			putchar(i);
-	putchar('\');
+	putchar('\n');
 	return (0);
 }
